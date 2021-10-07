@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button id="names-btn" class="btn btn-outline-secondary" type="button">Enter Names</button>
+                </div>
+                <input id="names" type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button id="teams-generator"class="btn btn-outline-secondary" type="button">Enter amount of teams</button>
+                </div>
+                <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <ul id="listsOfNames"class="list-group">
+                <li class="list-group-item">${placeholder}</li>
+            </ul>
+        </div>
+        <div>
+            <button type="button" class="btn btn-dark">Dark</button>
+        </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+
+</body>
+</html>
